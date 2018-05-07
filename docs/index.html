@@ -46,10 +46,49 @@
 						<!-- Intro -->
 							<article id="intro">
 								<h2 class="major">Intro</h2>
-								<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#work">awesome work</a>.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+								
+								<p>Youtube videos have become influential to many people around the world. According to a Forbes article, “YouTube Stars Influence Millennials More Than Traditional Celebrities”. From understanding more about the trending videos on Youtube by region and time, we can understand how trends and culture of different regions changed over time. This data was exactly what we were looking for – it is user data that has a time series component and a geographical component and these features allow us to analyze different groups of users over time.</p>
+
+								<h2 class="major">Average Number of Views for Each Category in Four Countries</h2>
+
+								<div>
+            <script type="text/javascript" src="plotlyjs-bundle.js"></script>
+            
+            
+        <script type="text/javascript" src="figure.js"></script>
+        
+        <div id="c68d9b5c-e294-4b55-9151-a4a09df2b361" style="width: 60%; height:100%; " class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+
+                var gd = document.getElementById('c68d9b5c-e294-4b55-9151-a4a09df2b361')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": true}
+                });
+                
+           }());
+        </script>
+
+								</div>
 							</article>
+							
 
 						<!-- us -->
 							<article id="us">
@@ -60,6 +99,10 @@
         <script type="text/javascript" src="us_plotly_2.js"></script>
 
 								</div>
+
+								<br><p> Word Cloud for the videos' titles in American trending videos. <img src="images/word_us_title.png" align="top" height="50%" width="50%"></p>
+								
+								<br><p> Word Cloud for the videos' descriptions in American trending videos. <img src="images/word_us_des.png" align="left" height="50%" width="50%"></p>
 							</article>
 
 						<!-- ca -->
@@ -71,6 +114,9 @@
                 <script type="text/javascript" src="ca_plotly_2.js"></script>
 
 								</div>
+								<br><p> Word Cloud for the videos' titles in Canadian trending videos. <img src="images/word_ca_title.png" align="top" height="50%" width="50%"></p>
+								
+								<br><p> Word Cloud for the videos' descriptions in Canadian trending videos. <img src="images/word_ca_des.png" align="left" height="50%" width="50%"></p>
 							</article>
 
 						<!-- gb -->
@@ -82,6 +128,9 @@
         <script type="text/javascript" src="gb_plotly_2.js"></script>
 
 								</div>
+								<br><p> Word Cloud for the videos' titles in British trending videos. <img src="images/word_gb_title.png" align="top" height="50%" width="50%"></p>
+								
+								<br><p> Word Cloud for the videos' descriptions in British trending videos. <img src="images/word_gb_des.png" align="left" height="50%" width="50%"></p>
 							</article>
 
 						<!-- de -->
@@ -93,6 +142,9 @@
         <script type="text/javascript" src="de_plotly_2.js"></script>
 
 								</div>
+								<br><p> Word Cloud for the videos' titles in German trending videos. <img src="images/word_de_title.png" align="top" height="50%" width="50%"></p>
+								
+								<br><p> Word Cloud for the videos' descriptions in German trending videos. <img src="images/word_de_des.png" align="left" height="50%" width="50%"></p>
 							</article>
 
 					</div>

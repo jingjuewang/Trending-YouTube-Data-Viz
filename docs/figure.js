@@ -116,7 +116,7 @@ var figure = {
             "ysrc": "jingjuewang:115:80aaa8", 
             "xsrc": "jingjuewang:115:b57996", 
             "marker": {
-                "color": "#fdb863"
+                "color": "#008837"
             }, 
             "y": [
                 "Gaming", 
@@ -160,7 +160,7 @@ var figure = {
             "ysrc": "jingjuewang:115:1e08ae", 
             "xsrc": "jingjuewang:115:d1c1cf", 
             "marker": {
-                "color": "#e66101"
+                "color": "#ca0020"
             }, 
             "y": [
                 "Gaming", 
@@ -206,7 +206,7 @@ var figure = {
             "ysrc": "jingjuewang:115:1e08ae", 
             "xsrc": "jingjuewang:115:53b40e", 
             "marker": {
-                "color": "#b2abd2"
+                "color": "#92c5de"
             }, 
             "y": [
                 "Gaming", 
@@ -252,7 +252,7 @@ var figure = {
             "ysrc": "jingjuewang:115:e1ffed", 
             "xsrc": "jingjuewang:115:a8d324", 
             "marker": {
-                "color": "#5e3c99"
+                "color": "#dfc27d"
             }, 
             "y": [
                 "Gaming", 

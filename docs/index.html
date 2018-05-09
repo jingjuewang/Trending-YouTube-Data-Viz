@@ -49,20 +49,20 @@
 								
 								<p>Youtube videos have become influential to many people around the world. According to a Forbes article, “YouTube Stars Influence Millennials More Than Traditional Celebrities”. From understanding more about the trending videos on Youtube by region and time, we can understand how trends and culture of different regions changed over time. This data was exactly what we were looking for – it is user data that has a time series component and a geographical component and these features allow us to analyze different groups of users over time.</p>
 
-								<h2 class="major">Average Number of Views for Each Category in Four Countries</h2>
+								<h2 class="major">Bar plots for all regions</h2>
 
 								<div>
-            <script type="text/javascript" src="plotlyjs-bundle.js"></script>
+            <script type="text/javascript" src="plotlyjs-bundle_sum.js"></script>
             
             
-        <script type="text/javascript" src="figure.js"></script>
+        <script type="text/javascript" src="figure_sum.js"></script>
         
-        <div id="c68d9b5c-e294-4b55-9151-a4a09df2b361" style="width: 60%; height:100%; " class="plotly-graph-div"></div>
+        <div id="32658bf1-37d7-4d43-b9e4-b46ef8b22df2" style="width: 70%; height: 100%;" class="plotly-graph-div"></div>
         <script type="text/javascript">
             (function(){
                 window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
 
-                var gd = document.getElementById('c68d9b5c-e294-4b55-9151-a4a09df2b361')
+                var gd = document.getElementById('32658bf1-37d7-4d43-b9e4-b46ef8b22df2')
                 var resizeDebounce = null;
 
                 function resizePlot() {
@@ -87,6 +87,40 @@
         </script>
 
 								</div>
+
+								<div><script type="text/javascript" src="plotlyjs-bundle_avg.js"></script>
+            
+            
+        <script type="text/javascript" src="figure_avg.js"></script>
+        
+        <div id="157021ee-5f76-45b3-ab20-80f7c0a55934" style="width: 70%; height: 100%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+
+                var gd = document.getElementById('157021ee-5f76-45b3-ab20-80f7c0a55934')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": true}
+                });
+                
+           }());
+        </script></div>
 							</article>
 							
 
@@ -94,10 +128,39 @@
 							<article id="us">
 								<h2 class="major">United States</h2>
 								<div>
-            <script src="us_plotly_1.js"></script>
-              <div id="0a296d44-e968-4ca9-82eb-0baf71606562" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
-        <script type="text/javascript" src="us_plotly_2.js"></script>
+                    <script type="text/javascript" src="plotlyjs-bundle_us.js"></script>
+            
+            
+        <script type="text/javascript" src="figure_us.js"></script>
+        
+        <div id="875c56cf-7bd2-49ee-9a4d-73799343b911" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
 
+                var gd = document.getElementById('875c56cf-7bd2-49ee-9a4d-73799343b911')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": true}
+                });
+                
+           }());
+        </script>
 								</div>
 
 								<br><p> Word Cloud for the videos' titles in American trending videos. <img src="images/word_us_title.png" align="top" height="50%" width="50%"></p>
@@ -109,9 +172,39 @@
 							<article id="ca">
 								<h2 class="major">Canada</h2>
 								<div>
-            <script src="ca_plotly_1.js"></script>
-                <div id="9fd8656b-4348-442a-9a3f-250d5e87441f" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
-                <script type="text/javascript" src="ca_plotly_2.js"></script>
+            <script type="text/javascript" src="plotlyjs-bundle_ca.js"></script>
+            
+            
+        <script type="text/javascript" src="figure_ca.js"></script>
+        
+        <div id="4bc9cf4c-14ea-47f8-84aa-837ad9bf9d3e" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+
+                var gd = document.getElementById('4bc9cf4c-14ea-47f8-84aa-837ad9bf9d3e')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": true}
+                });
+                
+           }());
+        </script>
 
 								</div>
 								<br><p> Word Cloud for the videos' titles in Canadian trending videos. <img src="images/word_ca_title.png" align="top" height="50%" width="50%"></p>
@@ -123,9 +216,39 @@
 							<article id="gb">
 								<h2 class="major">Great Britain</h2>
 								<div>
-            <script src="gb_plotly_1.js"></script>
-        <div id="3765178c-6d1a-4d0f-83c6-f230230da869" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
-        <script type="text/javascript" src="gb_plotly_2.js"></script>
+           <script type="text/javascript" src="plotlyjs-bundle_gb.js"></script>
+            
+            
+        <script type="text/javascript" src="figure_gb.js"></script>
+        
+        <div id="febd51e0-21ba-4027-a71a-5f8dd3eb5ea9" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+
+                var gd = document.getElementById('febd51e0-21ba-4027-a71a-5f8dd3eb5ea9')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": true}
+                });
+                
+           }());
+        </script>
 
 								</div>
 								<br><p> Word Cloud for the videos' titles in British trending videos. <img src="images/word_gb_title.png" align="top" height="50%" width="50%"></p>
@@ -137,9 +260,39 @@
 							<article id="de">
 								<h2 class="major">Germany</h2>
 								<div>
-            <script src="de_plotly_1.js"></script>
-        <div id="eb6ad233-6852-4e33-8181-8e9a57833c9b" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
-        <script type="text/javascript" src="de_plotly_2.js"></script>
+            <script type="text/javascript" src="plotlyjs-bundle_de.js"></script>
+            
+            
+        <script type="text/javascript" src="figure_de.js"></script>
+        
+        <div id="1e79120d-1d04-4a73-a047-3cfe60c122d7" style="width: 100%; height: 100%;" class="plotly-graph-div"></div>
+        <script type="text/javascript">
+            (function(){
+                window.PLOTLYENV={'BASE_URL': 'https://plot.ly'};
+
+                var gd = document.getElementById('1e79120d-1d04-4a73-a047-3cfe60c122d7')
+                var resizeDebounce = null;
+
+                function resizePlot() {
+                    var bb = gd.getBoundingClientRect();
+                    Plotly.relayout(gd, {
+                        width: bb.width,
+                        height: bb.height
+                    });
+                }
+
+                
+
+                
+                Plotly.plot(gd,  {
+                    data: figure.data,
+                    layout: figure.layout,
+                    frames: figure.frames,
+                    config: {"mapboxAccessToken": "pk.eyJ1IjoiY2hyaWRkeXAiLCJhIjoiY2lxMnVvdm5iMDA4dnhsbTQ5aHJzcGs0MyJ9.X9o_rzNLNesDxdra4neC_A", "linkText": "Export to plot.ly", "showLink": true}
+                });
+                
+           }());
+        </script>
 
 								</div>
 								<br><p> Word Cloud for the videos' titles in German trending videos. <img src="images/word_de_title.png" align="top" height="50%" width="50%"></p>

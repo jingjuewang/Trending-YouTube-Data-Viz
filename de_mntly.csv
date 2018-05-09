@@ -1,98 +1,31 @@
-trending_month,category,cat_cnt,sum_comment_cnt,sum_likes_cnt,country
-17-11,Autos & Vehicles,72,59910,479285,Germany
-17-11,Comedy,215,766246,6068565,Germany
-17-11,Education,93,67057,580633,Germany
-17-11,Entertainment,1134,1619766,14171844,Germany
-17-11,Film & Animation,248,526169,4531410,Germany
-17-11,Gaming,180,263285,1441762,Germany
-17-11,Howto & Style,117,98343,1090102,Germany
-17-11,Music,129,2512425,20845239,Germany
-17-11,News & Politics,281,142488,483743,Germany
-17-11,Nonprofits & Activism,11,75321,419588,Germany
-17-11,People & Blogs,558,665790,3402861,Germany
-17-11,Pets & Animals,22,151310,789830,Germany
-17-11,Science & Technology,65,348953,1914660,Germany
-17-11,Shows,16,16377,101137,Germany
-17-11,Sports,251,297924,2880508,Germany
-17-11,Travel & Events,7,7343,59315,Germany
-17-12,Autos & Vehicles,96,123696,1061797,Germany
-17-12,Comedy,404,1665228,16270192,Germany
-17-12,Education,116,132097,1187899,Germany
-17-12,Entertainment,2416,10126603,60876128,Germany
-17-12,Film & Animation,408,624509,4538504,Germany
-17-12,Gaming,280,752940,5569854,Germany
-17-12,Howto & Style,259,446357,2950477,Germany
-17-12,Music,345,2325548,29387783,Germany
-17-12,News & Politics,351,267473,709647,Germany
-17-12,Nonprofits & Activism,36,366193,1481826,Germany
-17-12,People & Blogs,967,1266387,9296376,Germany
-17-12,Pets & Animals,43,115781,705117,Germany
-17-12,Science & Technology,97,189088,1520010,Germany
-17-12,Shows,24,12867,77555,Germany
-17-12,Sports,334,473776,4490110,Germany
-17-12,Travel & Events,23,13107,148848,Germany
-18-01,Autos & Vehicles,103,71582,681381,Germany
-18-01,Comedy,347,1410919,10952858,Germany
-18-01,Education,120,86365,609545,Germany
-18-01,Entertainment,2133,4247372,29783610,Germany
-18-01,Film & Animation,333,883219,5926501,Germany
-18-01,Gaming,276,1051207,6743104,Germany
-18-01,Howto & Style,255,118871,1194431,Germany
-18-01,Music,310,2993503,35212062,Germany
-18-01,News & Politics,504,453855,1619249,Germany
-18-01,Nonprofits & Activism,48,2377799,7484600,Germany
-18-01,People & Blogs,842,942328,6445181,Germany
-18-01,Pets & Animals,31,71133,309106,Germany
-18-01,Science & Technology,74,121516,611239,Germany
-18-01,Shows,16,6706,33918,Germany
-18-01,Sports,377,551130,5114757,Germany
-18-01,Travel & Events,24,24906,246319,Germany
-18-02,Autos & Vehicles,137,92672,893185,Germany
-18-02,Comedy,308,810771,7113500,Germany
-18-02,Education,126,89316,672863,Germany
-18-02,Entertainment,2041,4092326,32360666,Germany
-18-02,Film & Animation,320,877163,7758378,Germany
-18-02,Gaming,185,351131,2286420,Germany
-18-02,Howto & Style,262,177114,1437658,Germany
-18-02,Music,297,2551069,33157420,Germany
-18-02,News & Politics,373,593388,2953152,Germany
-18-02,Nonprofits & Activism,45,260038,1310404,Germany
-18-02,People & Blogs,805,1401643,8796499,Germany
-18-02,Pets & Animals,34,97977,302881,Germany
-18-02,Science & Technology,189,1356354,4525811,Germany
-18-02,Shows,9,1633,9160,Germany
-18-02,Sports,412,700153,5317696,Germany
-18-02,Travel & Events,25,12362,95630,Germany
-18-03,Autos & Vehicles,176,108176,930486,Germany
-18-03,Comedy,357,1273347,9098110,Germany
-18-03,Education,131,121604,1171100,Germany
-18-03,Entertainment,2290,4970506,37597871,Germany
-18-03,Film & Animation,336,818421,8048785,Germany
-18-03,Gaming,268,508132,2912773,Germany
-18-03,Howto & Style,286,146205,1517774,Germany
-18-03,Music,351,3281805,35487800,Germany
-18-03,News & Politics,503,794542,2173510,Germany
-18-03,Nonprofits & Activism,43,424007,1973116,Germany
-18-03,People & Blogs,858,1024960,7322053,Germany
-18-03,Pets & Animals,39,103655,470353,Germany
-18-03,Science & Technology,131,128941,962077,Germany
-18-03,Shows,8,8385,49015,Germany
-18-03,Sports,379,797569,7985764,Germany
-18-03,Trailers,1,0,0,Germany
-18-03,Travel & Events,26,18921,153486,Germany
-18-04,Autos & Vehicles,44,18858,149223,Germany
-18-04,Comedy,124,372662,3330848,Germany
-18-04,Education,31,24122,340400,Germany
-18-04,Entertainment,609,1161587,9437326,Germany
-18-04,Film & Animation,84,225033,1938252,Germany
-18-04,Gaming,52,52287,554040,Germany
-18-04,Howto & Style,78,282693,1823301,Germany
-18-04,Music,124,1172109,13557072,Germany
-18-04,News & Politics,139,188663,787529,Germany
-18-04,Nonprofits & Activism,13,60844,298415,Germany
-18-04,People & Blogs,285,323016,2747405,Germany
-18-04,Pets & Animals,12,6783,52917,Germany
-18-04,Science & Technology,41,30305,176093,Germany
-18-04,Shows,3,830,7254,Germany
-18-04,Sports,152,213435,1675165,Germany
-18-04,Travel & Events,7,3538,20860,Germany
+trending_month,category,cat_cnt,sum_views_cnt,sum_likes_cnt,country
+17-12,Entertainment,1950,3040301896,97353572,Canada
+17-12,Music,592,2072453518,81668529,Canada
+18-03,Entertainment,2132,1838103777,55760559,Canada
+18-03,Music,501,1830472689,68733871,Canada
+18-02,Entertainment,1738,1687839476,37666963,Canada
+18-01,Music,526,1631946015,66734600,Canada
+18-01,Entertainment,1842,1503926197,44161683,Canada
+18-02,Music,496,1438678840,63771571,Canada
+17-11,Music,292,1185554206,53649345,Canada
+17-11,Entertainment,1072,848366090,25932644,Canada
+17-12,Comedy,638,751932767,46056461,Canada
+18-02,People & Blogs,582,606395832,12480818,Canada
+18-03,Sports,424,542812562,12509622,Canada
+18-03,Film & Animation,355,539286719,14490888,Canada
+18-02,Film & Animation,261,525672915,13428632,Canada
+18-02,Sports,449,504823651,8546495,Canada
+18-04,Music,185,476839614,21340003,Canada
+18-03,Comedy,549,468180412,22115045,Canada
+18-01,Comedy,490,463675683,24947102,Canada
+18-04,Entertainment,541,453879994,16724861,Canada
+17-12,People & Blogs,649,449986249,17842236,Canada
+17-12,Sports,371,425797940,9289041,Canada
+17-11,Comedy,386,399313760,22407121,Canada
+18-01,Sports,393,393323441,8121904,Canada
+18-01,People & Blogs,628,347758834,12913327,Canada
+17-11,Film & Animation,166,315780362,7205709,Canada
+17-11,People & Blogs,362,241083697,8654292,Canada
+18-04,Comedy,174,181075350,10549773,Canada
+18-04,Sports,173,174471438,2004055,Canada
+18-04,People & Blogs,196,150164474,5222723,Canada

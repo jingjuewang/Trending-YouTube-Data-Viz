@@ -2,21 +2,30 @@ var figure = {
     "frames": [], 
     "layout": {
         "barmode": "group", 
+        "title": "Average number of views for categories", 
         "updatemenus": [
             {
-                "bordercolor": "#FFFFFF", 
-                "yanchor": "bottom", 
-                "xanchor": "right", 
-                "y": 1.0, 
-                "active": 99, 
-                "x": -0.1
-            }, 
-            {
-                "bordercolor": "#FFFFFF", 
-                "yanchor": "bottom", 
-                "xanchor": "right", 
-                "y": 1.0, 
+                "active": -1, 
+                "x": -0.1, 
+                "bgcolor": "#d9d9d9", 
                 "buttons": [
+                    {
+                        "args": [
+                            {
+                                "visible": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true
+                                ]
+                            }, 
+                            {
+                                "title": "All"
+                            }
+                        ], 
+                        "method": "update", 
+                        "label": "ALL"
+                    }, 
                     {
                         "args": [
                             {
@@ -91,30 +100,117 @@ var figure = {
                                 "visible": [
                                     true, 
                                     true, 
+                                    false, 
+                                    false
+                                ]
+                            }, 
+                            {
+                                "title": "Great Britain & United States"
+                            }
+                        ], 
+                        "method": "update", 
+                        "label": "Great Britain & United States"
+                    }, 
+                    {
+                        "args": [
+                            {
+                                "visible": [
+                                    true, 
+                                    false, 
+                                    true, 
+                                    false
+                                ]
+                            }, 
+                            {
+                                "title": "Great Britain & Canada"
+                            }
+                        ], 
+                        "method": "update", 
+                        "label": "Great Britain & Canada"
+                    }, 
+                    {
+                        "args": [
+                            {
+                                "visible": [
+                                    true, 
+                                    false, 
+                                    false, 
+                                    true
+                                ]
+                            }, 
+                            {
+                                "title": "Great Britain & Germany"
+                            }
+                        ], 
+                        "method": "update", 
+                        "label": "Great Britain & Germany"
+                    }, 
+                    {
+                        "args": [
+                            {
+                                "visible": [
+                                    false, 
+                                    true, 
+                                    true, 
+                                    false
+                                ]
+                            }, 
+                            {
+                                "title": "United States & Canada"
+                            }
+                        ], 
+                        "method": "update", 
+                        "label": "United States & Canada"
+                    }, 
+                    {
+                        "args": [
+                            {
+                                "visible": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true
+                                ]
+                            }, 
+                            {
+                                "title": "United States & Germany"
+                            }
+                        ], 
+                        "method": "update", 
+                        "label": "United States & Germany"
+                    }, 
+                    {
+                        "args": [
+                            {
+                                "visible": [
+                                    false, 
+                                    false, 
                                     true, 
                                     true
                                 ]
                             }, 
                             {
-                                "title": "Reset"
+                                "title": "Canada & Germany"
                             }
                         ], 
                         "method": "update", 
-                        "label": "Reset"
+                        "label": "Canada & Germany"
                     }
-                ], 
-                "bgcolor": "#d9d9d9", 
-                "active": -1, 
-                "x": -0.01
+                ]
             }
         ], 
-        "title": "Average number of views in Categories"
+        "yaxis": {
+            "tickfont": {
+                "family": "Old Standard TT, serif", 
+                "size": 10
+            }
+        }
     }, 
     "data": [
         {
             "name": "Great Britain", 
-            "ysrc": "jingjuewang:115:80aaa8", 
-            "xsrc": "jingjuewang:115:b57996", 
+            "ysrc": "jingjuewang:139:ab59bf", 
+            "xsrc": "jingjuewang:139:bd019d", 
             "marker": {
                 "color": "#008837"
             }, 
@@ -157,8 +253,8 @@ var figure = {
         }, 
         {
             "name": "United States", 
-            "ysrc": "jingjuewang:115:1e08ae", 
-            "xsrc": "jingjuewang:115:d1c1cf", 
+            "ysrc": "jingjuewang:139:bcb3b2", 
+            "xsrc": "jingjuewang:139:177ae8", 
             "marker": {
                 "color": "#ca0020"
             }, 
@@ -203,8 +299,8 @@ var figure = {
         }, 
         {
             "name": "Canada", 
-            "ysrc": "jingjuewang:115:1e08ae", 
-            "xsrc": "jingjuewang:115:53b40e", 
+            "ysrc": "jingjuewang:139:bcb3b2", 
+            "xsrc": "jingjuewang:139:4beb04", 
             "marker": {
                 "color": "#92c5de"
             }, 
@@ -249,8 +345,8 @@ var figure = {
         }, 
         {
             "name": "Germany", 
-            "ysrc": "jingjuewang:115:e1ffed", 
-            "xsrc": "jingjuewang:115:a8d324", 
+            "ysrc": "jingjuewang:139:7179a0", 
+            "xsrc": "jingjuewang:139:fddcef", 
             "marker": {
                 "color": "#dfc27d"
             }, 
